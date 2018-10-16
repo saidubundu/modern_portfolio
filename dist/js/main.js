@@ -3,7 +3,6 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
-
 // Set initial state of menu
 
 let showMenu = false;
@@ -28,3 +27,6 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+const mb = document.querySelectorAll(".materialbox");
+M.Materialbox.init(mb, {});
